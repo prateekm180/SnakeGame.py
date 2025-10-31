@@ -20,9 +20,9 @@ DELAY = 0.1
 SPEED_INCREMENT = 0.005
 SEGMENT_SIZE = 20
 
-BACKGROUND_MUSIC = r"C:\Users\DELL\Desktop\Code To App\snakeBGMusic.mp3"
-EAT_SOUND = r"C:\Users\DELL\Desktop\Code To App\snakeEatSound.mp3"
-GAME_OVER_SOUND = r"C:\Users\DELL\Desktop\Code To App\snakeCollisionSound.mp3"
+BACKGROUND_MUSIC = r"File's Path\snakeBGMusic.mp3"        # Replace With the Path where you saved the mp3 file on your system
+EAT_SOUND = r"File's Path\snakeEatSound.mp3"              # Replace With the Path where you saved the mp3 file on your system
+GAME_OVER_SOUND = r"File's Path\snakeCollisionSound.mp3"  # Replace With the Path where you saved the mp3 file on your system
 
 # === GLOBAL STATE ===
 in_menu = True
@@ -360,3 +360,4 @@ def run_game(head, food, segments):
 # === START ===
 draw_menu()
 win.mainloop()
+
